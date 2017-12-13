@@ -20,5 +20,10 @@ public:
 
 template<class T>
 void tfunction(T t) {
-    boo(t);
+    myboo(t);
+}
+
+int main() {
+    tfunction(100);
+    return 0;
 }
