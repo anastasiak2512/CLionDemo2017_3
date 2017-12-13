@@ -15,3 +15,10 @@ public:
     T operator[] (int ind) const;
     void empty();
 };
+
+// Use Alt+Enter to create function from usage
+
+template<class T>
+void tfunction(T t) {
+    boo(t);
+}
